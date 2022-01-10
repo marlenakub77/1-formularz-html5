@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <form action="https://formspree.io/f/mwkypdry" method="POST">
+
+        <label for="name">Imię:</label> <br>
+        <input type="text" name="name" id="name" required> <br><br>
+
+        <label for="surname">Nazwisko:</label> <br>
+        <input type="text" name="surname" id="surname" required> <br><br>
+    
+        <label for="email">Adres e-mail:</label> <br>
+        <input type="email" name="email" id="email" required> <br><br>
+    
+        <label for="phone">Telefon:</label> <br>
+        <input type="tel" name="phone" id="phone" required> <br><br>
+
+        <label for="city" >Wybór miasta:</label> <br>          
+            <select name="city">
+                <option id="city" value="Kraków">Kraków</option>
+                <option id="city" value="Warszawa">Warszawa</option>
+                <option id="city" value="Gdańsk">Gdańsk</option>
+            </select> <br><br>
+
+        <label for="choise">Płeć:</label> <br>
+        <input type="radio" name="choise" id="choise">Kobieta<br>
+        <input type="radio" name="choise" id="choise">Mężczyzna<br><br>
+
+        <label for="agreement">Zgoda na dane osobowe:</label> <br>
+        <input type="checkbox" name="agreement" id="agreement"> <br><br>
+        
+        <label for="message">Wiadomość:</label> <br>
+        <textarea name="message" maxlength="50" id="message"></textarea> <br><br>
+    
+        <input type="submit" value="Wyślij formularz">
+    
+    </form>
+
+</body>
+</html>
